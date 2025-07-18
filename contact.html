@@ -90,9 +90,7 @@
                         id="navbarCollapse"
                     >
                         <div class="navbar-nav ml-auto py-0">
-                            <a
-                                href="index.html"
-                                class="nav-item nav-link active"
+                            <a href="index.html" class="nav-item nav-link"
                                 >Главная</a
                             >
                             <a href="about.html" class="nav-item nav-link"
@@ -104,7 +102,9 @@
                             <a href="testimonial.html" class="nav-item nav-link"
                                 >Отзывы</a
                             >
-                            <a href="contact.html" class="nav-item nav-link"
+                            <a
+                                href="contact.html"
+                                class="nav-item nav-link active"
                                 >Контакты</a
                             >
                         </div>
@@ -116,13 +116,13 @@
 
         <!-- Page Header Start -->
         <div class="container-fluid page-header">
-            <h1 class="display-3 text-uppercase text-white mb-3">İletişim</h1>
+            <h1 class="display-3 text-uppercase text-white mb-3">Контакты</h1>
             <div class="d-inline-flex text-white">
                 <h6 class="text-uppercase m-0">
-                    <a class="text-white" href="index.html">Ana Sayfa</a>
+                    <a class="text-white" href="index.html">Главная</a>
                 </h6>
                 <h6 class="text-body m-0 px-3">/</h6>
-                <h6 class="text-uppercase text-body m-0">İletişim</h6>
+                <h6 class="text-uppercase text-body m-0">Контакты</h6>
             </div>
         </div>
         <!-- Page Header Start -->
@@ -131,7 +131,7 @@
         <div class="container-fluid py-5">
             <div class="container pt-5 pb-3">
                 <h1 class="display-4 text-uppercase text-center mb-5">
-                    İletişim
+                    Контактная информация
                 </h1>
                 <div class="row">
                     <div class="col-lg-7 mb-2">
@@ -139,13 +139,13 @@
                             class="contact-form bg-light mb-4"
                             style="padding: 30px"
                         >
-                            <form>
+                            <form method="get" action="thanks.html">
                                 <div class="row">
                                     <div class="col-6 form-group">
                                         <input
                                             type="text"
                                             class="form-control p-4"
-                                            placeholder="Adınız"
+                                            placeholder="Ваше имя"
                                             required="required"
                                         />
                                     </div>
@@ -154,20 +154,16 @@
                                             type="email"
                                             id="email"
                                             class="form-control p-4"
-                                            placeholder="E-posta Adresiniz"
+                                            placeholder="Ваш Email"
                                             required="required"
                                         />
-                                        <div
-                                            id="result"
-                                            style="color: red; font-size: 12px"
-                                        ></div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <input
                                         type="text"
                                         class="form-control p-4"
-                                        placeholder="Konu"
+                                        placeholder="Тема обращения (например, шиномонтаж)"
                                         required="required"
                                     />
                                 </div>
@@ -175,7 +171,7 @@
                                     <textarea
                                         class="form-control py-3 px-4"
                                         rows="5"
-                                        placeholder="Mesaj"
+                                        placeholder="Сообщение (опишите проблему с автомобилем или вопрос по обслуживанию)"
                                         required="required"
                                     ></textarea>
                                 </div>
@@ -184,9 +180,8 @@
                                         class="btn btn-primary py-3 px-5"
                                         type="submit"
                                         id="submit"
-                                        onclick="sendForm()"
                                     >
-                                        Mesajı Gönder
+                                        Отправить сообщение
                                     </button>
                                 </div>
                             </form>
@@ -202,11 +197,9 @@
                                     class="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3"
                                 ></i>
                                 <div class="mt-n1">
-                                    <h5 class="text-light">Merkez Ofis</h5>
+                                    <h5 class="text-light">Наш сервис</h5>
                                     <p>
-                                        Altınova Sinan, Turtas Plaza, Serik Cd.
-                                        Yanyolu No:157, 07170 Kepez/Antalya,
-                                        Türkiye
+                                        Абылай хан данғылы 60/1, Астана 010010
                                     </p>
                                 </div>
                             </div>
@@ -215,9 +208,7 @@
                                     class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"
                                 ></i>
                                 <div class="mt-n1">
-                                    <h5 class="text-light">
-                                        Müşteri Hizmetleri
-                                    </h5>
+                                    <h5 class="text-light">Общие вопросы</h5>
                                     <p>car_zona@gmail.com</p>
                                 </div>
                             </div>
@@ -227,7 +218,7 @@
                                 ></i>
                                 <div class="mt-n1">
                                     <h5 class="text-light">
-                                        İade & Geri Ödeme
+                                        Справочная по услугам
                                     </h5>
                                     <p class="m-0">+77089099540</p>
                                 </div>
@@ -238,7 +229,7 @@
             </div>
 
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12803430.813744336!2d24.036202175218392!3d38.4221177575241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3815be4aa6793%3A0x62812b2396ac5625!2sTurtas%20Rent%20a%20Car%20Antalya%20Airport!5e0!3m2!1suk!2sua!4v1729323640270!5m2!1suk!2sua"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2096.8430771304497!2d71.52334324144476!3d51.13703812300998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245813cc5f91553%3A0x667a6a91f7ec3793!2sTez%20Auto%20-%20Mobil%201%20Service%20Center!5e0!3m2!1suk!2sua!4v1752850521539!5m2!1suk!2sua"
                 width="100%"
                 height="450"
                 style="border: 0"
@@ -258,66 +249,76 @@
                 <div class="row pt-5">
                     <div class="col-lg-4 col-md-6 mb-5">
                         <h4 class="text-uppercase text-light mb-4">
-                            İletişime Geçin
+                            Связаться с нами
                         </h4>
                         <p class="mb-2">
-                            <i class="fa fa-map-marker-alt text-white mr-3"></i
-                            >Абылай хан данғылы 60/1, Астана 010010, Казахстан
+                            <i class="fa fa-map-marker-alt text-white mr-3"></i>
+                            Абылай хан данғылы 60/1, Астана 010010, Казахстан
                         </p>
                         <p class="mb-2">
-                            <i class="fa fa-phone-alt text-white mr-3"></i
-                            >+77089099540
+                            <i class="fa fa-phone-alt text-white mr-3"></i>
+                            +77089099540
                         </p>
                         <p>
-                            <i class="fa fa-envelope text-white mr-3"></i
-                            >car_zona@gmail.com
+                            <i class="fa fa-envelope text-white mr-3"></i>
+                            car_zona@gmail.com
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-5">
                         <h4 class="text-uppercase text-light mb-4">
-                            Kullanışlı Bağlantılar
+                            Полезные ссылки
                         </h4>
                         <div class="d-flex flex-column justify-content-start">
                             <a class="text-body mb-2" href="privacy-policy.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Gizlilik Politikası</a
+                                ></i>
+                                Политика конфиденциальности</a
+                            >
+                            <a class="text-body mb-2" href="cookie-policy.html"
+                                ><i
+                                    class="fa fa-angle-right text-white mr-2"
+                                ></i>
+                                Политика Cookies</a
                             >
                             <a class="text-body mb-2" href="terms-of-use.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Şartlar ve Koşullar</a
+                                ></i>
+                                Условия использования</a
                             >
                             <a class="text-body mb-2" href="index.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Ana Sayfa</a
+                                ></i>
+                                Главная</a
                             >
                             <a class="text-body mb-2" href="service.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Hizmetler</a
+                                ></i>
+                                Услуги</a
                             >
                             <a class="text-body" href="contact.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Bize Ulaşın</a
+                                ></i>
+                                Связаться с нами</a
                             >
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-5">
-                        <h4 class="text-uppercase text-light mb-4">Bülten</h4>
+                        <h4 class="text-uppercase text-light mb-4">
+                            Информационный бюллетень
+                        </h4>
                         <p class="mb-4">
-                            Bültenimize abone olarak en son haberler, özel
-                            teklif ve kampanyalardan haberdar olun! Lüks araç
-                            kiralama dünyasındaki yenilikler ve fırsatları
-                            kaçırmamak için kaydolun.
+                            Подпишитесь на наш образовательный бюллетень, чтобы
+                            получать научную информацию о современных
+                            технологиях автосервиса, включая ремонт, автомойку и
+                            шиномонтаж. Мы делимся только полезными и
+                            академическими материалами для изучения процессов
+                            техобслуживания автомобилей.
                         </p>
                         <div class="w-100 mb-3">
                             <form action="thanks.html" method="get">
@@ -326,15 +327,17 @@
                                         type="text"
                                         class="form-control bg-dark border-dark"
                                         style="padding: 25px"
-                                        placeholder="E-posta Adresiniz"
+                                        placeholder="Ваш e-mail"
                                         id="email"
+                                        required
                                     />
                                     <div class="input-group-append">
                                         <button
                                             class="btn btn-primary text-uppercase px-3"
                                             id="submit"
+                                            type="submit"
                                         >
-                                            Kaydolun
+                                            Подписаться
                                         </button>
                                     </div>
                                 </div>
@@ -350,20 +353,24 @@
         <div class="cookie-wrapper show">
             <div>
                 <i class="bx bx-cookie"></i>
-                <h2 style="text-align: center">Çerez İzni</h2>
+                <h2 style="text-align: center">Использование файлов cookie</h2>
             </div>
 
             <div class="data">
                 <p>
-                    Bu web sitesi, size daha üstün ve daha ilgili bir tarayıcı
-                    deneyimi sağlamak için çerezler kullanmaktadır.
-                    <a href="cookie-policy.html">Daha fazla bilgi edinin...</a>
+                    Этот сайт использует файлы cookie для улучшения
+                    функциональности и анализа посещаемости в рамках учебных
+                    материалов по теме автосервиса: ремонт, автомойка,
+                    шиномонтаж.
+                    <a href="cookie-policy.html"
+                        >Подробнее в политике cookie...</a
+                    >
                 </p>
             </div>
 
             <div class="buttons">
-                <button class="cookie-button" id="acceptBtn">Kabul Et</button>
-                <button class="cookie-button" id="declineBtn">Reddet</button>
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
             </div>
         </div>
         <!-- End Cookie banner -->

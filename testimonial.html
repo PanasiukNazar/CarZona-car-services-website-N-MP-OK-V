@@ -90,9 +90,7 @@
                         id="navbarCollapse"
                     >
                         <div class="navbar-nav ml-auto py-0">
-                            <a
-                                href="index.html"
-                                class="nav-item nav-link active"
+                            <a href="index.html" class="nav-item nav-link"
                                 >Главная</a
                             >
                             <a href="about.html" class="nav-item nav-link"
@@ -101,7 +99,9 @@
                             <a href="service.html" class="nav-item nav-link"
                                 >Услуги</a
                             >
-                            <a href="testimonial.html" class="nav-item nav-link"
+                            <a
+                                href="testimonial.html"
+                                class="nav-item nav-link active"
                                 >Отзывы</a
                             >
                             <a href="contact.html" class="nav-item nav-link"
@@ -113,96 +113,16 @@
             </div>
         </div>
         <!-- Navbar End -->
-        <!-- Search Start -->
-        <div class="container-fluid bg-white pt-3 px-lg-5">
-            <div class="row mx-n2">
-                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                    <select
-                        class="custom-select px-4 mb-3"
-                        style="height: 50px"
-                    >
-                        <option selected>Pickup Location</option>
-                        <option value="1">Location 1</option>
-                        <option value="2">Location 2</option>
-                        <option value="3">Location 3</option>
-                    </select>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                    <select
-                        class="custom-select px-4 mb-3"
-                        style="height: 50px"
-                    >
-                        <option selected>Drop Location</option>
-                        <option value="1">Location 1</option>
-                        <option value="2">Location 2</option>
-                        <option value="3">Location 3</option>
-                    </select>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                    <div
-                        class="date mb-3"
-                        id="date"
-                        data-target-input="nearest"
-                    >
-                        <input
-                            type="text"
-                            class="form-control p-4 datetimepicker-input"
-                            placeholder="Pickup Date"
-                            data-target="#date"
-                            data-toggle="datetimepicker"
-                        />
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                    <div
-                        class="time mb-3"
-                        id="time"
-                        data-target-input="nearest"
-                    >
-                        <input
-                            type="text"
-                            class="form-control p-4 datetimepicker-input"
-                            placeholder="Pickup Time"
-                            data-target="#time"
-                            data-toggle="datetimepicker"
-                        />
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                    <select
-                        class="custom-select px-4 mb-3"
-                        style="height: 50px"
-                    >
-                        <option selected>Select A Car</option>
-                        <option value="1">Car 1</option>
-                        <option value="2">Car 1</option>
-                        <option value="3">Car 1</option>
-                    </select>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6 px-2">
-                    <button
-                        class="btn btn-primary btn-block mb-3"
-                        type="submit"
-                        style="height: 50px"
-                    >
-                        Search
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Search End -->
 
         <!-- Page Header Start -->
         <div class="container-fluid page-header">
-            <h1 class="display-3 text-uppercase text-white mb-3">
-                Testimonial
-            </h1>
+            <h1 class="display-3 text-uppercase text-white mb-3">Отзывы</h1>
             <div class="d-inline-flex text-white">
                 <h6 class="text-uppercase m-0">
-                    <a class="text-white" href="">Home</a>
+                    <a class="text-white" href="">Главная</a>
                 </h6>
                 <h6 class="text-body m-0 px-3">/</h6>
-                <h6 class="text-uppercase text-body m-0">Testimonial</h6>
+                <h6 class="text-uppercase text-body m-0">Отзывы</h6>
             </div>
         </div>
         <!-- Page Header Start -->
@@ -212,7 +132,7 @@
             <div class="container py-5">
                 <h1 class="display-1 text-primary text-center">05</h1>
                 <h1 class="display-4 text-uppercase text-center mb-5">
-                    Müşteri Yorumları: Memnuniyet Garantisi
+                    Отзывы клиентов: Оценка качества автосервиса
                 </h1>
                 <div class="owl-carousel testimonial-carousel">
                     <div
@@ -221,20 +141,15 @@
                         <div
                             class="d-flex align-items-center justify-content-between mb-3"
                         >
-                            <img
-                                class="img-fluid ml-n4"
-                                src="img/testimonial-1.jpg"
-                                alt=""
-                            />
                             <h1
                                 class="display-2 text-white m-0 fa fa-quote-right"
                             ></h1>
                         </div>
-                        <h4 class="text-uppercase mb-2">Ahmet Aydın</h4>
+                        <h4 class="text-uppercase mb-2">Алексей Мельников</h4>
                         <p class="m-0">
-                            "İş seyahatlerimde her zaman konforlu ve güvenli bir
-                            araç tercih ederim. Bu hizmet gerçekten
-                            beklentilerimin çok üzerinde çıktı."
+                            "Проходил техобслуживание и замену шин. Работа
+                            выполнена качественно и без задержек. Персонал
+                            вежливый и компетентный."
                         </p>
                     </div>
                     <div
@@ -243,21 +158,15 @@
                         <div
                             class="d-flex align-items-center justify-content-between mb-3"
                         >
-                            <img
-                                class="img-fluid ml-n4"
-                                src="img/testimonial-2.jpg"
-                                alt=""
-                            />
                             <h1
                                 class="display-2 text-white m-0 fa fa-quote-right"
                             ></h1>
                         </div>
-                        <h4 class="text-uppercase mb-2">Selin Karaca</h4>
+                        <h4 class="text-uppercase mb-2">Ольга Васильева</h4>
                         <p class="m-0">
-                            "Özel bir etkinlik için lüks bir araç kiraladım ve
-                            aldığım hizmetten son derece memnun kaldım. Araç tam
-                            zamanında teslim edildi ve göz alıcı bir şıklığa
-                            sahipti. "
+                            "Обратилась за услугой мойки автомобиля. Всё
+                            выполнено аккуратно, салон и кузов безупречно
+                            чистые. Очень довольна результатом."
                         </p>
                     </div>
                     <div
@@ -266,21 +175,15 @@
                         <div
                             class="d-flex align-items-center justify-content-between mb-3"
                         >
-                            <img
-                                class="img-fluid ml-n4"
-                                src="img/testimonial-3.jpg"
-                                alt=""
-                            />
                             <h1
                                 class="display-2 text-white m-0 fa fa-quote-right"
                             ></h1>
                         </div>
-                        <h4 class="text-uppercase mb-2">Murat Yılmaz</h4>
+                        <h4 class="text-uppercase mb-2">Игорь Смирнов</h4>
                         <p class="m-0">
-                            "Tatilimiz boyunca uzun dönem araç kiralama hizmeti
-                            aldık ve her açıdan çok memnun kaldık. Araçlar yeni
-                            ve son teknolojiyle donatılmıştı, bu da
-                            seyahatlerimizi çok daha keyifli hale getirdi. "
+                            "Ремонтировал подвеску. Диагностика проведена точно,
+                            запчасти установлены качественные. Машина снова на
+                            ходу."
                         </p>
                     </div>
                     <div
@@ -289,60 +192,21 @@
                         <div
                             class="d-flex align-items-center justify-content-between mb-3"
                         >
-                            <img
-                                class="img-fluid ml-n4"
-                                src="img/testimonial-4.jpg"
-                                alt=""
-                            />
                             <h1
                                 class="display-2 text-white m-0 fa fa-quote-right"
                             ></h1>
                         </div>
-                        <h4 class="text-uppercase mb-2">Ebru Demir</h4>
+                        <h4 class="text-uppercase mb-2">Елена Корнилова</h4>
                         <p class="m-0">
-                            "Lüks araç kiralama konusunda birçok farklı şirketle
-                            çalıştım ama buradaki deneyim kesinlikle
-                            benzersizdi. Araç seçenekleri çok geniş ve her biri
-                            prestijli modellerden oluşuyor."
+                            "Записывалась на комплексную диагностику перед
+                            длительной поездкой. Все узлы проверили, дали
+                            рекомендации. Сервис на уровне."
                         </p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Testimonial End -->
-
-        <!-- Vendor Start -->
-        <div class="container-fluid py-5">
-            <div class="container py-5">
-                <div class="owl-carousel vendor-carousel">
-                    <div class="bg-light p-4">
-                        <img src="img/vendor-1.png" alt="" />
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendor-2.png" alt="" />
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendor-3.png" alt="" />
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendor-4.png" alt="" />
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendor-5.png" alt="" />
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendor-6.png" alt="" />
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendor-7.png" alt="" />
-                    </div>
-                    <div class="bg-light p-4">
-                        <img src="img/vendor-8.png" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Vendor End -->
 
         <!-- Footer Start -->
         <div
@@ -353,66 +217,76 @@
                 <div class="row pt-5">
                     <div class="col-lg-4 col-md-6 mb-5">
                         <h4 class="text-uppercase text-light mb-4">
-                            İletişime Geçin
+                            Связаться с нами
                         </h4>
                         <p class="mb-2">
-                            <i class="fa fa-map-marker-alt text-white mr-3"></i
-                            >Абылай хан данғылы 60/1, Астана 010010, Казахстан
+                            <i class="fa fa-map-marker-alt text-white mr-3"></i>
+                            Абылай хан данғылы 60/1, Астана 010010, Казахстан
                         </p>
                         <p class="mb-2">
-                            <i class="fa fa-phone-alt text-white mr-3"></i
-                            >+77089099540
+                            <i class="fa fa-phone-alt text-white mr-3"></i>
+                            +77089099540
                         </p>
                         <p>
-                            <i class="fa fa-envelope text-white mr-3"></i
-                            >car_zona@gmail.com
+                            <i class="fa fa-envelope text-white mr-3"></i>
+                            car_zona@gmail.com
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-5">
                         <h4 class="text-uppercase text-light mb-4">
-                            Kullanışlı Bağlantılar
+                            Полезные ссылки
                         </h4>
                         <div class="d-flex flex-column justify-content-start">
                             <a class="text-body mb-2" href="privacy-policy.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Gizlilik Politikası</a
+                                ></i>
+                                Политика конфиденциальности</a
+                            >
+                            <a class="text-body mb-2" href="cookie-policy.html"
+                                ><i
+                                    class="fa fa-angle-right text-white mr-2"
+                                ></i>
+                                Политика Cookies</a
                             >
                             <a class="text-body mb-2" href="terms-of-use.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Şartlar ve Koşullar</a
+                                ></i>
+                                Условия использования</a
                             >
                             <a class="text-body mb-2" href="index.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Ana Sayfa</a
+                                ></i>
+                                Главная</a
                             >
                             <a class="text-body mb-2" href="service.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Hizmetler</a
+                                ></i>
+                                Услуги</a
                             >
                             <a class="text-body" href="contact.html"
                                 ><i
                                     class="fa fa-angle-right text-white mr-2"
-                                ></i
-                                >Bize Ulaşın</a
+                                ></i>
+                                Связаться с нами</a
                             >
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-5">
-                        <h4 class="text-uppercase text-light mb-4">Bülten</h4>
+                        <h4 class="text-uppercase text-light mb-4">
+                            Информационный бюллетень
+                        </h4>
                         <p class="mb-4">
-                            Bültenimize abone olarak en son haberler, özel
-                            teklif ve kampanyalardan haberdar olun! Lüks araç
-                            kiralama dünyasındaki yenilikler ve fırsatları
-                            kaçırmamak için kaydolun.
+                            Подпишитесь на наш образовательный бюллетень, чтобы
+                            получать научную информацию о современных
+                            технологиях автосервиса, включая ремонт, автомойку и
+                            шиномонтаж. Мы делимся только полезными и
+                            академическими материалами для изучения процессов
+                            техобслуживания автомобилей.
                         </p>
                         <div class="w-100 mb-3">
                             <form action="thanks.html" method="get">
@@ -421,15 +295,17 @@
                                         type="text"
                                         class="form-control bg-dark border-dark"
                                         style="padding: 25px"
-                                        placeholder="E-posta Adresiniz"
+                                        placeholder="Ваш e-mail"
                                         id="email"
+                                        required
                                     />
                                     <div class="input-group-append">
                                         <button
                                             class="btn btn-primary text-uppercase px-3"
                                             id="submit"
+                                            type="submit"
                                         >
-                                            Kaydolun
+                                            Подписаться
                                         </button>
                                     </div>
                                 </div>
@@ -445,20 +321,24 @@
         <div class="cookie-wrapper show">
             <div>
                 <i class="bx bx-cookie"></i>
-                <h2 style="text-align: center">Çerez İzni</h2>
+                <h2 style="text-align: center">Использование файлов cookie</h2>
             </div>
 
             <div class="data">
                 <p>
-                    Bu web sitesi, size daha üstün ve daha ilgili bir tarayıcı
-                    deneyimi sağlamak için çerezler kullanmaktadır.
-                    <a href="cookie-policy.html">Daha fazla bilgi edinin...</a>
+                    Этот сайт использует файлы cookie для улучшения
+                    функциональности и анализа посещаемости в рамках учебных
+                    материалов по теме автосервиса: ремонт, автомойка,
+                    шиномонтаж.
+                    <a href="cookie-policy.html"
+                        >Подробнее в политике cookie...</a
+                    >
                 </p>
             </div>
 
             <div class="buttons">
-                <button class="cookie-button" id="acceptBtn">Kabul Et</button>
-                <button class="cookie-button" id="declineBtn">Reddet</button>
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
             </div>
         </div>
         <!-- End Cookie banner -->
